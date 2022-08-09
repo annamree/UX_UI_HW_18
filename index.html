@@ -6,52 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Homepage</title>
     <link href="assets/img/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <header id="main-header">
         <div class="logo">
-            <img src="./assets/img/portfoliologo01.png">
+            <img src="./assets/img/image.png">
         </div>
         <nav>
-            <ul class="inline-block">
-                <li class="inline-block">ABOUT</li>
-                <li class="inline-block">WORK</li>
-                <li class="inline-block">RESUME</li>
-                <li><button><a href="">CONTACT ME</a></button></li>
+            <ul class="navigation">
+                <li class="navigation">ABOUT</li>
+                <li class="navigation">WORK</li>
+                <li class="navigation">RESUME</li>
+                <li class="navigation">CONTACT</li>
             </ul>
         </nav>
     </header>
 
     <section id="portfolio">
-        <div class="hero-image">
-            <img src="./assets/img/Frame.png">
-            <img src="./assets/img/Rectangle40.png">
+    </section>
+
+<!-- My UX Skills section coded using CSS flex-->
+    <section class="mySkills">
+        <h1> My UX Skills</h1>
+        <div id="categoryGrid" class="flexContainer">
+            <div class="flexItem">
+                <img src="./assets/img/userResearch.png">
+                <h3>USER RESEARCH</h3>
+                <p>Plan, conduct, and analyze findings through user centered research.</p>
+            </div>
+            <div class="flexItem">
+                <img src="./assets/img/uiDesign.png">
+                <h3>INFORMATION ARCHITECTURE</h3>
+                <p>Organize information in an understandable manner for users.</p>
+            </div>
+            <div class="flexItem">
+                <img src="./assets/img/visualcomm.png">
+                <h3>VISUAL COMMUNICATION</h3>
+                <p>Proficiency in layout, colour, and design theory.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+            <div class="grid-items">
+                <div><img class="image-size" src="./assets/img/EFJN.png" alt=""></div>
+                <h4>ECO-JUST FOOD NETWORK</h4>
+                <p>Explore how my team and I redesigned a NPO site.</p>
+                <button>SEE MORE</button>
+            </div>
+            <div class="grid-items">
+                <div><img src="./assets/img/COLLAB.png" class="image-size" alt=""></div>
+                <h4>COLLAB</h4>
+                <p>An app for creatives to find community.</p>
+                 <button>SEE MORE</button>
+            </div>
         </div>
     </section>
 
 <footer>
     <div class="footer-body">
-        <p>LET'S CONNECT</p>
+        <h6>LET'S CONNECT</h6>
     </div>
-    <div class="footer-nav inline-block">
-        <ul>
-            <li class="inline-block">
+    <div class="iconLogo">
+            <li class="icon-item">
                 <img src="./assets/img/Behance.png" alt="Behance logo">
             </li>
-            <li class="inline-block">
+            <li class="icon-item">
                 <img src="./assets/img/LinkedIn.png" alt="LinkedIn Logo">
             </li>
-        </ul>
     </div>
-    <div class="email">
-    <a href="anna.melendres@gmail.com">
-    </a>
+    <div class="footer-body">
+    <h6>anna.melendres@gmail.com</h6>
+    </p>
     </div>
 </footer>
 </body>
